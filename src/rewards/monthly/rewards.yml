@@ -1,0 +1,200 @@
+Settings:
+  Cooldown:
+    Unlock:
+      At_New_Cycle: true
+      Custom_Time: 2629746
+
+Rewards:
+  '1':
+    Description:
+      - '&e&lRewards:'
+      - '&6- $500'
+    Rewards:
+      Custom_Actions:
+        default:
+          target-selectors:
+            - '[SELF] ~name: self;'
+          conditions:
+            list: []
+            actions-on-fail: 'null'
+          action-executors:
+            - '[COMMAND_CONSOLE] ~message: eco give %target% 500; ~target: self;'
+            - '[MESSAGE] ~message: &aCongratulations! You got reward for join 1st month in a row!; ~target: self;'
+            - '[SOUND] ~name: BLOCK_NOTE_BLOCK_BELL; ~target: self;'
+  '2':
+    Description:
+      - '&e&lRewards:'
+      - '&6- $1000'
+    Rewards:
+      Custom_Actions:
+        default:
+          target-selectors:
+            - '[SELF] ~name: self;'
+          conditions:
+            list: []
+            actions-on-fail: 'null'
+          action-executors:
+            - '[COMMAND_CONSOLE] ~message: eco give %target% 1000; ~target: self;'
+            - '[MESSAGE] ~message: &aCongratulations! You got reward for join 2nd month in a row!; ~target: self;'
+            - '[SOUND] ~name: BLOCK_NOTE_BLOCK_BELL; ~target: self;'
+  '3':
+    Description:
+      - '&e&lRewards:'
+      - '&6- $1500'
+    Rewards:
+      Custom_Actions:
+        default:
+          target-selectors:
+            - '[SELF] ~name: self;'
+          conditions:
+            list: []
+            actions-on-fail: 'null'
+          action-executors:
+            - '[COMMAND_CONSOLE] ~message: eco give %target% 1500; ~target: self;'
+            - '[MESSAGE] ~message: &aCongratulations! You got reward for join 3rd month in a row!; ~target: self;'
+            - '[SOUND] ~name: BLOCK_NOTE_BLOCK_BELL; ~target: self;'
+  '4':
+    Description:
+      - '&e&lRewards:'
+      - '&6- $2500'
+    Rewards:
+      Custom_Actions:
+        default:
+          target-selectors:
+            - '[SELF] ~name: self;'
+          conditions:
+            list: []
+            actions-on-fail: 'null'
+          action-executors:
+            - '[COMMAND_CONSOLE] ~message: eco give %target% 2500; ~target: self;'
+            - '[MESSAGE] ~message: &aCongratulations! You got reward for join 4th month in a row!; ~target: self;'
+            - '[SOUND] ~name: BLOCK_NOTE_BLOCK_BELL; ~target: self;'
+  '5':
+    Description:
+      - '&e&lRewards:'
+      - '&6- $5000'
+    Rewards:
+      Custom_Actions:
+        default:
+          target-selectors:
+            - '[SELF] ~name: self;'
+          conditions:
+            list: []
+            actions-on-fail: 'null'
+          action-executors:
+            - '[COMMAND_CONSOLE] ~message: eco give %target% 5000; ~target: self;'
+            - '[MESSAGE] ~message: &aCongratulations! You got reward for join 5th month in a row!; ~target: self;'
+            - '[SOUND] ~name: BLOCK_NOTE_BLOCK_BELL; ~target: self;'
+  '6':
+    Description:
+      - '&e&lRewards:'
+      - '&6- $7500'
+    Rewards:
+      Custom_Actions:
+        default:
+          target-selectors:
+            - '[SELF] ~name: self;'
+          conditions:
+            list: []
+            actions-on-fail: 'null'
+          action-executors:
+            - '[COMMAND_CONSOLE] ~message: eco give %target% 7500; ~target: self;'
+            - '[MESSAGE] ~message: &aCongratulations! You got reward for join 6th month in a row!; ~target: self;'
+            - '[SOUND] ~name: BLOCK_NOTE_BLOCK_BELL; ~target: self;'
+  '7':
+    Description:
+      - '&e&lRewards:'
+      - '&6- $10000'
+    Rewards:
+      Custom_Actions:
+        default:
+          target-selectors:
+            - '[SELF] ~name: self;'
+          conditions:
+            list: []
+            actions-on-fail: 'null'
+          action-executors:
+            - '[COMMAND_CONSOLE] ~message: eco give %target% 10000; ~target: self;'
+            - '[MESSAGE] ~message: &aCongratulations! You got reward for join 7th month in a row!; ~target: self;'
+            - '[SOUND] ~name: BLOCK_NOTE_BLOCK_BELL; ~target: self;'
+  '8':
+    Description:
+      - '&e&lRewards:'
+      - '&6- $15000'
+    Rewards:
+      Custom_Actions:
+        default:
+          target-selectors:
+            - '[SELF] ~name: self;'
+          conditions:
+            list: []
+            actions-on-fail: 'null'
+          action-executors:
+            - '[COMMAND_CONSOLE] ~message: eco give %target% 15000; ~target: self;'
+            - '[MESSAGE] ~message: &aCongratulations! You got reward for join 8th month in a row!; ~target: self;'
+            - '[SOUND] ~name: BLOCK_NOTE_BLOCK_BELL; ~target: self;'
+  '9':
+    Description:
+      - '&e&lRewards:'
+      - '&6- $20000'
+    Rewards:
+      Custom_Actions:
+        default:
+          target-selectors:
+            - '[SELF] ~name: self;'
+          conditions:
+            list: []
+            actions-on-fail: 'null'
+          action-executors:
+            - '[COMMAND_CONSOLE] ~message: eco give %target% 20000; ~target: self;'
+            - '[MESSAGE] ~message: &aCongratulations! You got reward for join 9th month in a row!; ~target: self;'
+            - '[SOUND] ~name: BLOCK_NOTE_BLOCK_BELL; ~target: self;'
+  '10':
+    Description:
+      - '&e&lRewards:'
+      - '&6- $25000'
+    Rewards:
+      Custom_Actions:
+        default:
+          target-selectors:
+            - '[SELF] ~name: self;'
+          conditions:
+            list: []
+            actions-on-fail: 'null'
+          action-executors:
+            - '[COMMAND_CONSOLE] ~message: eco give %target% 25000; ~target: self;'
+            - '[MESSAGE] ~message: &aCongratulations! You got reward for join 10th month in a row!; ~target: self;'
+            - '[SOUND] ~name: BLOCK_NOTE_BLOCK_BELL; ~target: self;'
+  '11':
+    Description:
+      - '&e&lRewards:'
+      - '&6- $30000'
+    Rewards:
+      Custom_Actions:
+        default:
+          target-selectors:
+            - '[SELF] ~name: self;'
+          conditions:
+            list: []
+            actions-on-fail: 'null'
+          action-executors:
+            - '[COMMAND_CONSOLE] ~message: eco give %target% 30000; ~target: self;'
+            - '[MESSAGE] ~message: &aCongratulations! You got reward for join 11th month in a row!; ~target: self;'
+            - '[SOUND] ~name: BLOCK_NOTE_BLOCK_BELL; ~target: self;'
+  '12':
+    Description:
+      - '&e&lRewards:'
+      - '&6- $50000'
+    Rewards:
+      Custom_Actions:
+        default:
+          target-selectors:
+            - '[SELF] ~name: self;'
+          conditions:
+            list: []
+            actions-on-fail: 'null'
+          action-executors:
+            - '[COMMAND_CONSOLE] ~message: eco give %target% 50000; ~target: self;'
+            - '[MESSAGE] ~message: &aCongratulations! You got reward for join 12th month in a row!; ~target: self;'
+            - '[SOUND] ~name: BLOCK_NOTE_BLOCK_BELL; ~target: self;'
+

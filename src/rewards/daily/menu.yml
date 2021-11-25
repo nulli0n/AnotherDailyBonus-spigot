@@ -1,0 +1,71 @@
+Title: '&8&m       &8&l[ &9&lDaily Rewards &8&l]&8&m       '
+Size: 27
+
+Animation:
+  Tick: 20
+
+Rewards:
+  Slots: '10,11,12,13,14,15,16'
+  Format:
+    AVAILABLE:
+      material: 'PLAYER_HEAD'
+      head-texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjNkNWU0M2RlNWQ0MTc3YzRiYWYyZjQ0MTYxNTU0NDczYTNiMGJlNTQzMDk5OGI1ZmNkODI2YWY5NDNhZmUzIn19fQ=='
+      name: '&a(Day %bonus_reward_counter%) &2Reward Available!'
+      lore:
+      - '%bonus_reward_description%'
+      - '&7'
+      - '&bExpires in: &d%user_bonus_expire_in%'
+      - '&7'
+      - '&a&l&nClaim it right now!'
+    TAKEN:
+      material: 'PLAYER_HEAD'
+      head-texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWI0Y2E0MzU2ZTMzOGI4YjJjYWJmZWNkMmRjY2RmMzZjOWRlOWVmZTc3ZTg4NTE1NzExYWE0YWIxY2MifX19'
+      name: '&7(Day %bonus_reward_counter%) &8Taken Reward'
+      lore:
+      - '%bonus_reward_description%'
+      - '&7'
+      - '&7You have already received this reward.'
+    LOCKED:
+      material: 'PLAYER_HEAD'
+      head-texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWIzMzQ4YTYxY2ZmYzc5ZWI0MmQ4NDlkMzc4MjI5NDMyYWE4MWQxOTg1NmIyNWZlYWFjNzUzODQ4NzEzN2E1In19fQ=='
+      name: '&c(Day %bonus_reward_counter%) &4Locked Reward'
+      lore:
+      - '%bonus_reward_description%'
+      - '&7'
+      - '&cClaim the previous reward to unlock!'
+    UPCOMING:
+      material: 'PLAYER_HEAD'
+      head-texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjM3Y2FlNWM1MWViMTU1OGVhODI4ZjU4ZTBkZmY4ZTZiN2IwYjFhMTgzZDczN2VlY2Y3MTQ2NjE3NjEifX19'
+      name: '&e(Day %bonus_reward_counter%) &6Upcoming Reward'
+      lore:
+      - '%bonus_reward_description%'
+      - '&7'
+      - '&aAvailable in: &b%user_bonus_upcoming_in%'
+
+Content:
+  panes:
+    Display:
+      default:
+        Item:
+          material: 'BLACK_STAINED_GLASS_PANE'
+          name: '&b[Daily Rewards]'
+          enchanted: false
+          lore:
+          - '&7Come back every day to receive'
+          - '&7your daily bonus!'
+          - ''
+          - '&aThe more days in a row you'
+          - '&ajoin the better the reward!'
+          - ''
+          - '&cYou must wait: &7%user_bonus_upcoming_in%'
+          - '&cbefore claiming your next bonus'
+    Slots: 0,1,2,3,4,5,6,7,8,9,17,18,19,20,21,22,23,24,25,26
+
+  return:
+    Display:
+      default:
+        Item:
+          material: BARRIER
+          name: '&c&lReturn'
+    Type: RETURN
+    Slots: 22

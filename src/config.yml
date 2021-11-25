@@ -1,0 +1,25 @@
+core:
+  command-aliases: dailybonus,db,dbonus
+  lang: en
+  prefix: DailyBonus
+
+data:
+  auto-save: 15
+  storage:
+    type: sqlite
+    username: none
+    password: none
+    host: none
+    database: none
+  purge:
+    enabled: false
+    days: 60
+
+Bonus_Types:
+  DAILY: true
+  WEEKLY: true
+  MONTHLY: true
+
+Menu_Popup:
+  Enabled: true
+  Only_When_Ready: true

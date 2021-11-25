@@ -1,0 +1,39 @@
+Title: '&8&m       &8&l[ &9&lJoin Rewards &8&l]&8&m       '
+Size: 27
+
+Content:
+  daily:
+    Display:
+      default:
+        Item:
+          material: PLAYER_HEAD
+          name: '&e&lDaily Rewards'
+          lore:
+            - '&bReward Available: &e%user_bonus_available%'
+          head-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjA4NmE5NTBkMGEzMDNmNDhhYWIzYTVmMmY2YTQwMzNlODBiYWZjYWY3Y2I1YmRhMTM5N2I4M2U1MjlmNjNiNSJ9fX0=
+    Slots: 10
+    Type: DAILY
+
+  weekly:
+    Display:
+      default:
+        Item:
+          material: PLAYER_HEAD
+          name: '&c&lWeekly Rewards'
+          lore:
+            - '&bReward Available: &e%user_bonus_available%'
+          head-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMThkYjBhMWUxNTA1YTc3OTA1YjczNDgwNjdkZDJlYjRmODdmMWFhZjllNDg5ZjY3MGQ4MmQzYjdkNGM0YWU1MCJ9fX0=
+    Slots: 13
+    Type: WEEKLY
+
+  monthly:
+    Display:
+      default:
+        Item:
+          material: PLAYER_HEAD
+          name: '&d&lMonthly Rewards'
+          lore:
+            - '&bReward Available: &e%user_bonus_available%'
+          head-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzY3N2U2NWRmMjk5OWQwMzE5ZmRiY2JhM2MwOTJmMTYwYjk5YjRiNDY3OTgzYWY4MWZjZmExZWI0NWQzOWEzIn19fQ==
+    Slots: 16
+    Type: MONTHLY

@@ -1,0 +1,81 @@
+Settings:
+  Cooldown:
+    Unlock:
+      At_New_Cycle: true
+      Custom_Time: 604800
+
+Rewards:
+  '1':
+    Description:
+      - '&e&lRewards:'
+      - '&6- $500'
+      - '&6- x2 Diamonds'
+    Rewards:
+      Custom_Actions:
+        default:
+          target-selectors:
+            - '[SELF] ~name: self;'
+          conditions:
+            list: []
+            actions-on-fail: 'null'
+          action-executors:
+            - '[COMMAND_CONSOLE] ~message: eco give %target% 500; ~target: self;'
+            - '[COMMAND_CONSOLE] ~message: give %target% diamond 2; ~target: self;'
+            - '[MESSAGE] ~message: &aCongratulations! You got reward for join 1st week in a row!; ~target: self;'
+            - '[SOUND] ~name: BLOCK_NOTE_BLOCK_BELL; ~target: self;'
+  '2':
+    Description:
+      - '&e&lRewards:'
+      - '&6- $1000'
+      - '&6- x4 Diamonds'
+    Rewards:
+      Custom_Actions:
+        default:
+          target-selectors:
+            - '[SELF] ~name: self;'
+          conditions:
+            list: []
+            actions-on-fail: 'null'
+          action-executors:
+            - '[COMMAND_CONSOLE] ~message: eco give %target% 1000; ~target: self;'
+            - '[COMMAND_CONSOLE] ~message: give %target% diamond 4; ~target: self;'
+            - '[MESSAGE] ~message: &aCongratulations! You got reward for join 2nd week in a row!; ~target: self;'
+            - '[SOUND] ~name: BLOCK_NOTE_BLOCK_BELL; ~target: self;'
+  '3':
+    Description:
+      - '&e&lRewards:'
+      - '&6- $1500'
+      - '&6- x8 Diamonds'
+    Rewards:
+      Custom_Actions:
+        default:
+          target-selectors:
+            - '[SELF] ~name: self;'
+          conditions:
+            list: []
+            actions-on-fail: 'null'
+          action-executors:
+            - '[COMMAND_CONSOLE] ~message: eco give %target% 1500; ~target: self;'
+            - '[COMMAND_CONSOLE] ~message: give %target% diamond 8; ~target: self;'
+            - '[MESSAGE] ~message: &aCongratulations! You got reward for join 3rd week in a row!; ~target: self;'
+            - '[SOUND] ~name: BLOCK_NOTE_BLOCK_BELL; ~target: self;'
+  '4':
+    Description:
+      - '&e&lRewards:'
+      - '&6- $2500'
+      - '&6- x16 Diamonds'
+      - '&6- 10 Exp Levels'
+    Rewards:
+      Custom_Actions:
+        default:
+          target-selectors:
+            - '[SELF] ~name: self;'
+          conditions:
+            list: []
+            actions-on-fail: 'null'
+          action-executors:
+            - '[COMMAND_CONSOLE] ~message: eco give %target% 2500; ~target: self;'
+            - '[COMMAND_CONSOLE] ~message: exp give %target% 10l; ~target: self;'
+            - '[COMMAND_CONSOLE] ~message: give %target% diamond 16; ~target: self;'
+            - '[MESSAGE] ~message: &aCongratulations! You got reward for join 4th week in a row!; ~target: self;'
+            - '[SOUND] ~name: BLOCK_NOTE_BLOCK_BELL; ~target: self;'

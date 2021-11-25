@@ -1,0 +1,48 @@
+main: su.nightexpress.anotherdailybonus.AnotherDailyBonus
+version: 1.2.0
+name: AnotherDailyBonus
+author: NightExpress
+desciption: Another daily bonus plugin. Enjoy.
+depend: [NexEngine]
+softdepend: [PlaceholderAPI]
+api-version: 1.15
+permissions:
+#--------------------------------------------------------#
+  anotherdailybonus.admin:
+    description: Full plugin access.
+    default: op
+    children:
+      anotherdailybonus.user: true
+      anotherdailybonus.cmd: true
+      anotherdailybonus.bonus: true
+#--------------------------------------------------------#
+  anotherdailybonus.cmd:
+    description: Access to all plugin commands.
+    default: op
+    children:
+      anotherdailybonus.cmd.open: true
+  anotherdailybonus.cmd.open:
+    description: Access to /dailybonus open command.
+    default: true
+#--------------------------------------------------------#
+  anotherdailybonus.bonus:
+    description: Full bonus access.
+    default: op
+    children:
+      anotherdailybonus.bonus.*: true
+      anotherdailybonus.bonus.daily: true
+      anotherdailybonus.bonus.weekly: true
+      anotherdailybonus.bonus.monthly: true
+  anotherdailybonus.bonus.*:
+    description: Access to all bonus types.
+    default: true
+  anotherdailybonus.bonus.daily:
+    description: Access to Daily bonus type.
+    default: true
+  anotherdailybonus.bonus.weekly:
+    description: Access to Weekly bonus type.
+    default: true
+  anotherdailybonus.bonus.monthly:
+    description: Access to Monthly bonus type.
+    default: true
+#--------------------------------------------------------#
